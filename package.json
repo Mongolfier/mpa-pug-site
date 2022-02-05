@@ -1,5 +1,5 @@
 {
-  "name": "gulp-site",
+  "name": "mpa-pug-site",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -16,7 +16,24 @@
     "url": "https://github.com/Mongolfier/mpa-pug-site/issues"
   },
   "homepage": "https://github.com/Mongolfier/mpa-pug-site#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "compress-images": "^2.0.4",
+    "del": "^6.0.0",
+    "gifsicle": "^5.3.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-less": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-webserver": "^0.9.1",
+    "pngquant-bin": "^6.0.0",
+    "sass": "^1.49.7"
+  },
   "dependencies": {
-    "gulp": "^4.0.2"
+    "gulp-pug": "^5.0.0",
+    "gulp-uglify-es": "^3.0.0",
+    "pug": "^3.0.2"
   }
 }
